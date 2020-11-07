@@ -1,0 +1,5 @@
+option 1 
+When I select my input 
+I want to listen to key presses 
+and when that happens 
+change the text by what have been pressed on the input.
