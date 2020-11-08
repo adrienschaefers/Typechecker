@@ -94,5 +94,14 @@ colorTags.forEach(tag => {
     tag.addEventListener("click", function() {
         outputTag.style.backgroundColor = this.style.backgroundColor
         outputTag.style.color = this.style.color
+
+        // reset the classes
+        colorTags.forEach(tag => {
+            tag.classList.remove("selected")
+        })
+
+        // only add to selected one
+        this.classList.add("selected")
+
     })
 })
