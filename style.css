@@ -38,6 +38,7 @@ section.options{
     width: 16vw;
     padding: 40px;
     border-right: solid 1px #ffffff;
+    font-family: "Faune";
 }
 
 textarea.output{
